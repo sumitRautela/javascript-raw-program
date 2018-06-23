@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prime Number between 1 to N</title>
+	
+</head>
+<body>
+  
+  <h2>WAP to print prime number between 1 to N</h2>
+
+
+
+ <script type="text/javascript">
+
+
+alert("program to print prime number between 1 to N");
+var limit=Number(prompt("Enter number upto which you want to find prime number"));
+ var i = 0;
+ var j = 0;
+ 
+
+ for (i = 1; i <= limit; i++) 
+ {
+   c = 0;
+   for (j = 1; j <= i; j++) 
+          
+     {
+                        
+           if (i % j == 0) 
+            {
+              c++;
+                   }
+                      
+                           }
+    if (c == 2) 
+    {
+      alert(i);
+                      }
+                
+                             }
+
+
+ </script>
+</body>
+</html>

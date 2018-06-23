@@ -1,0 +1,1 @@
+This is a pure javascript program on finding the prime numbers between 1 to n
